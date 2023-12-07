@@ -1,0 +1,62 @@
+.body{
+    display: flex;
+}
+.box1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    padding: 0px;
+}
+.box2{
+    width: 25rem;
+    border-radius: 5px;
+    padding: 30px;
+    overflow-x:hidden;
+    box-shadow: 5px 3px 6px rgb(207, 207, 207),-5px -3px 6px rgb(207, 207, 207);
+}
+.box3{
+    width: 25rem;
+    border-radius: 5px;
+    padding: 30px;
+    overflow-x:hidden;
+    box-shadow: 1px 1px 10px rgb(184, 182, 182),-1px -1px 10px rgb(184, 182, 182);
+}
+.box4{
+    border-radius: 5px;
+    padding: 20px;
+    overflow-x:hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 5px 3px 10px rgb(184, 182, 182),-5px -3px 10px rgb(184, 182, 182);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form button{
+    width: 8rem;
+    height: 2.8rem;
+    border-radius: 3px;
+    background-color: none;
+    border: 2px solid green;
+    outline:none;
+    font-size: 1.2rem;
+}
+form div{
+    text-align: center;
+}
+form button:hover{
+background-color: green;
+color: white;
+}
+label{
+    font-weight: bolder;
+    margin-left: 0px;
+    padding:5px 0px;
+}   
+.box2 input{
+    margin:0px 0px 20px 0px;
+}

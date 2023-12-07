@@ -1,0 +1,94 @@
+.box{
+    height: 570px;
+    width: auto;
+}
+.s1{
+    text-transform: uppercase;
+    color: rgb(251, 246, 248);
+    font-family: Rockwell;
+    position: relative;
+    left: 200px;
+    top: 80px;
+}
+.img{
+    height: 570px;
+    width: 100%;
+    background-image: url(../project/img/1682873044580.jpg);
+    background-repeat: round;
+}
+.m1{
+    height: 100px;
+    width: 50%;;
+    position: relative;
+    top: 50px;
+}
+.div li:hover{
+    background-color: rgb(175, 244, 247);
+}
+.div li button{
+    background: none;
+    border: none;
+    width: 100%;
+    height: 35px;
+    padding: -10px;
+}
+.div li a{
+    text-decoration: none;
+}
+table .dbtn{
+    background-color: red;
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+table .ebtn{
+    color: white;
+    background-color: rgb(4, 151, 4);
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 2px;
+}
+.cadd{
+    margin-top: 3rem;
+}
+.cadd button{
+    background-color: rgb(4, 151, 4);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+
+}
+.cadd form{
+    display: flex;
+    flex-direction: column;
+}
+.cadd input{
+    padding: 0.5rem 1rem;
+    margin-bottom: 10px;
+}
+table{
+    margin-top: 3.8rem;
+}
+.rform{
+    width: 40rem;
+    background-color: royalblue;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+.rform input{
+    margin-bottom: 5px;
+    padding: 0.3rem 1rem;
+}
+.media{
+margin: 10px 0px;
+}
+.media .media-body{
+    margin: 0px 10px;
+}
+.media .media-body h4{
+    color: rgb(73, 134, 246);
+}
+textarea{
+    resize: none;
+}
